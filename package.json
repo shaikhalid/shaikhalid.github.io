@@ -10,7 +10,9 @@
     "serve": "gatsby serve --verbose",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d public",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "build:preview": "node scripts/preview-build.js",
+    "build:site": "node scripts/preview-build.js"
   },
   "dependencies": {
     "@loadable/component": "^5.14.1",

@@ -64,3 +64,6 @@ yarn-error.log
 .netlify
 .cache
 .idea/
+
+# Standalone homepage preview
+dist/
